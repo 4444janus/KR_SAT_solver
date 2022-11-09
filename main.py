@@ -7,6 +7,7 @@ class SAT:
 
 
 
+
     def read_dimacs(self, data):
 
         for line in open(data):
@@ -22,7 +23,7 @@ class SAT:
             for literal in clause:
                 x.add(abs(literal))
         self.truth_values = dict.fromkeys(x, None)
-        print(self.truth_values )
+        print(self.truth_values)
         return self.clauses, self.truth_values
 
     def pure_literal(self):
@@ -76,16 +77,24 @@ class SAT:
 
     def solve(self):
         # if not self.clauses: #TODO
-        if len(self.clauses) == 0:
-            print("etttstst")
-            return True
+        if [] in self.clauses:
+            print('UNSAT')
+        elif not self.clauses:
+            print("SAT")
         else:
             self.check_tautology() # check only once at the beginning
-            # while len(self.clauses) > 0:
-            for i in range(2):
-                self.pure_literal()
-
+            able_to_simplify = True
+            while able_to_simplify:
+                # simplify:
                 self.unit_clause()
+
+            # for i in range(2):
+
+                self.pure_literal()
+                if self.truth_values no change:
+
+            #not able to simplify:
+                    self.split()
 
 # def dpll(clause):
 #     if clause == "SAT":
