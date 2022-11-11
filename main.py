@@ -58,10 +58,12 @@ class SAT:
                 self.truth_values[clause[0]] = True
             else:
                 continue
+        
         return self.clauses, self.truth_values
 
     def check_tautology(self):
         for clause in self.clauses:
+            # print(clause)
             for literal in clause:
                 if -literal in clause:
                     print(literal)
@@ -76,9 +78,20 @@ class SAT:
                 self.solve
 
     def solve(self):
-        # if not self.clauses: #TODO
+        self.check_tautology()  # check only once at the beginning
+        able_to_simplify = True
+        while able_to_simplify:
+            # simplify:
+            self.unit_clause()
+
+        self.split()
+
+
+
+
         if [] in self.clauses:
             print('UNSAT')
+
         elif not self.clauses:
             print("SAT")
         else:
@@ -89,30 +102,33 @@ class SAT:
                 self.unit_clause()
 
             # for i in range(2):
+            #
+            #     self.pure_literal()
+            #     if self.truth_values no change:
+            #
+            # #not able to simplify:
+            #         self.split()
 
-                self.pure_literal()
-                if self.truth_values no change:
 
-            #not able to simplify:
-                    self.split()
 
-# def dpll(clause):
-#     if clause == "SAT":
-#         return 'sat'
-#
-#     if  clause == 'tautology':
-#         dpll()
-#
-#     if clause == 'unit clause':
-#         dpll(True)
-#
-#     if clause == 'pure literal':
-#         dpll(True)
-#
-#     if dpll() == True:
-#         return 'SAT'
-#     else:
-#         dpll(False)
+
+def dpll(clause):
+    if clause == "SAT":
+        return 'sat'
+
+    if  clause == 'tautology':
+        dpll()
+
+    if clause == 'unit clause':
+        dpll(True)
+
+    if clause == 'pure literal':
+        dpll(True)
+
+    if dpll() == True:
+        return 'SAT'
+    else:
+        dpll(False)
 
 
 
