@@ -4,7 +4,7 @@ class SAT:
         self.clauses = clauses
         self.assignment = assignment
         self.truth_values = truth_values
-
+8
     def read_dimacs(self, data):
 
         for line in open(data):

@@ -112,7 +112,46 @@ class SAT:
             heuristic = False
             #choose heuristic:
             if heuristic == 1:
-                pass #TODO
+                # Maximum Occurence of Minimum size clause (MOM)
+                # determine minimum size and select all clauses of this size
+                length_of_minimum_clauses = len(min(clauses, key=len))
+                minimum_clauses = [x for x in clauses if len(x) == length_of_minimum_clauses]
+
+                # transform nested list in list
+                def flat(lis):
+                    flatList = []
+                    # Iterate with outer list
+                    for element in lis:
+                        if type(element) is list:
+                            # Check if type is list than iterate through the sublist
+                            for item in element:
+                                flatList.append(item)
+                        else:
+                            flatList.append(element)
+                    return flatList
+
+
+                flat_clause = flat(minimum_clauses)
+
+
+                max_occurence = 0
+                max_literal = []
+                k = 2
+                # check for all literals which occurs the most time.
+                for literal in literals:
+                    occ_lit = (flat_clause.count(literal))
+                    occ_lit_prime = (flat_clause.count(-literal))
+                    occurence = (occ_lit + occ_lit_prime) * 2 ** k + (occ_lit * occ_lit_prime)
+                    if occurence > max_occurence:
+                        max_occurence = occurence
+                        max_literal = literal
+                    else:
+                        max_occurence = max_occurence
+                        max_literal = max_literal
+
+                # pick the literal with maximum occurence
+                choice = max_literal
+
             elif heuristic == 2:
                 pass #TODO
 
