@@ -1,9 +1,16 @@
+import random
+import time
+from copy import deepcopy
+
+
 
 class SAT:
-    def __init__(self, clauses=[], assignment=[], truth_values={}):
+    def __init__(self, clauses=[], assignment=[], truth_values={}, history = {}):
         self.clauses = clauses
         self.assignment = assignment
         self.truth_values = truth_values
+        self.history = history
+
 
 
 
@@ -36,30 +43,39 @@ class SAT:
                 if literal > 0:
                     positive.append(literal)
                 else:
-                    negative.append(abs(literal))
+                    negative.append(literal)
         only_positive = [x for x in positive if x not in set(negative)]
-        only_negative = [-x for x in negative if x not in set(positive)]
+        only_negative = [x for x in negative if -x not in set(positive)]
 
         # twee forloops. loop over literals. checked of literal kleiner is dan 0. if else. om te checken of positief of negatief.
         # if literal is only positive of negative, delete
-        for i in only_positive:
-            self.truth_values[i] = True
-        for i in only_negative:
-            self.truth_values[i] = False
+        for i in only_negative + only_positive:
+            self.update_truthvalues(i)
+        # for i in only_positive:
+        #     self.truth_values[i] = True
+        # for i in only_negative:
+        #     self.truth_values[i] = False
         #set truthvalues to true or false
 
-        return only_positive + only_negative
+        # return only_positive + only_negative
 
     def unit_clause(self):
-        for clause in self.clauses:
-            # if
-            if len(clause) == 1:
-                # is unit clause
-                self.truth_values[clause[0]] = True
-            else:
-                continue
-        
-        return self.clauses, self.truth_values
+        unit = True
+        while unit:
+            any_units = 0
+            for clause in [*self.clauses]:
+                # if
+                if len(clause) == 1:
+                    # is unit clause
+                    self.update_truthvalues(clause[0])
+                    # self.truth_values[clause[0]] = True
+                    self.clauses.remove(clause)
+                    any_units += 1
+
+            if any_units == 0:
+                unit = False
+
+        # return self.clauses, self.truth_values
 
     def check_tautology(self):
         for clause in self.clauses:
@@ -70,7 +86,68 @@ class SAT:
                     self.clauses.remove(clause)
         return self.clauses
 
-    def split(self):
+    def dpll(self, clauses, truthvalues):
+        stuck = True
+        if [] in self.clauses:
+            return False
+        elif self.clauses == len(0):
+            return True
+        else:
+            while not stuck:
+                self.unit_clause()
+
+                self.pure_literal()
+            if [] in self.clauses:
+                return False
+            elif self.clauses == len(0):
+                return True
+
+            deepcopy_clauses = deepcopy(self.clauses)
+            deepcopy_truth_values = deepcopy(self.truth_values)
+
+            all_literals = []
+            for literal in self.truth_values:
+                if self.truth_values[literal] is None:
+                    all_literals.append(literal)
+            heuristic = False
+            #choose heuristic:
+            if heuristic == 1:
+                pass #TODO
+            elif heuristic == 2:
+                pass #TODO
+
+            else:
+                choice = random.choice(all_literals)
+
+            # if choice in self.history:
+                # if self.history[choice] == True:
+                    # Try False
+                # else:
+            #         Try False
+            self.update_truthvalues(choice)
+            # self.truth_values[choice] = True
+            self.update_clauses()
+
+            result = self.dpll()
+            if result:
+                return self.truth_values, self.clauses, result
+
+            # else not solved, backtrack
+
+            self.update_truthvalues(-choice)
+
+            return self.dpll()
+
+
+
+
+        # check if able to simplify with dpll. If solve not possible (dpll gives result false) backtrack
+
+
+
+
+        # simplify
+
         for clause in self.clauses:
             if True:
                 return sat
@@ -80,9 +157,11 @@ class SAT:
     def solve(self):
         self.check_tautology()  # check only once at the beginning
         able_to_simplify = True
-        while able_to_simplify:
-            # simplify:
-            self.unit_clause()
+
+        self.dpll()
+
+        # simplify:
+        self.dpll()
 
         self.split()
 
@@ -108,6 +187,40 @@ class SAT:
             #
             # #not able to simplify:
             #         self.split()
+    def update_truthvalues(self, literal):
+        if literal > 0:
+            self.truthvalues[literal] = True
+        else:
+            self.truthvalues[abs(literal)] = False
+
+
+    def update_clauses(self):
+        changed = False
+        clause_not_removed = True
+        for clause in [*self.clauses]:
+            abs_literal = [abs(literal) for literal in clause]
+            for literal in abs_literal:
+                if self.truth_values[literal] is True:
+                    if literal in clause & clause_not_removed:
+                        self.clauses.remove(clause)
+                        clause_not_removed = False
+                        changed = True
+                    elif -literal in clause & clause_not_removed:
+                        self.clauses[clause].remove(-literal)
+                        changed = True
+                elif self.truth_values[literal] is False & clause_not_removed:
+                    if -literal in clause & clause_not_removed:
+                        self.clauses.remove(clause)
+                        clause_not_removed = False
+                        changed = True
+                    elif literal in clause & clause_not_removed:
+                        self.clauses[clause].remove(literal)
+                        changed = True
+        return changed
+
+
+
+
 
 
 
@@ -129,6 +242,10 @@ def dpll(clause):
         return 'SAT'
     else:
         dpll(False)
+
+
+
+
 
 
 
