@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af07df61-2c3c-40d3-92cb-05843d4bf649" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1000 sudokus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku51.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku52.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku53.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku54.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku55.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku56.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku57.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku58.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku59.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku60.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku61.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku62.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku63.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku66.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku67.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku68.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku69.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku70.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku71.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku72.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku73.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku74.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku75.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku76.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku77.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku78.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku79.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1000sudokus/sudoku9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_sudokus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_sudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudoku-rules-9x9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KR_SAT_solver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KR_SAT_solver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku-rules-4x4_combined_w_puzzle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku-rules-4x4_combined_w_puzzle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku1.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/sudoku1.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HOvjfANJFCJfP7UsOjEldgsQSc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janus\OneDrive - Vrije Universiteit Amsterdam\Msc Artificial Intelligence\Jaar 2\period 2\KR\assignment 1 SAT solver\git\KR_SAT_solver\1000sudokus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="create_sudokus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KR_SAT_solver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_sudokus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KR_SAT_solver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Janus\OneDrive - Vrije Universiteit Amsterdam\Msc Artificial Intelligence\Jaar 2\period 2\KR\assignment 1 SAT solver\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KR_SAT_solver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_sudoku.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.create_sudokus" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.read_sudoku" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.create_sudokus" />
+        <item itemvalue="Python.read_sudoku" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af07df61-2c3c-40d3-92cb-05843d4bf649" name="Changes" comment="" />
+      <created>1668169081443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668169081443</updated>
+      <workItem from="1668169084575" duration="38275000" />
+      <workItem from="1668710930131" duration="1735000" />
+      <workItem from="1668712695860" duration="14186000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$create_sudokus.coverage" NAME="create_sudokus Coverage Results" MODIFIED="1668727669725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$read_sudoku.coverage" NAME="read_sudoku Coverage Results" MODIFIED="1668727473258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1668730903136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
